@@ -3,7 +3,7 @@ def revesearray_rec(n,i,list1):
         return
     else:
         a=list1[i]
-        list1[i]=list1[n-i-1]
+        list1[i]=list1[n-1-i]
         list1[n-i-1]=a
         revesearray_rec(n,i+1,list1)
         return list1
