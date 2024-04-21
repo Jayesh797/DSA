@@ -8,6 +8,6 @@ def revesearray_rec(n,i,list1):
         revesearray_rec(n,i+1,list1)
         return list1
 
-mylist=[1,2,3,4,5]
-mylist2=revesearray_rec(5,0,mylist)
+mylist=[1,2,3,4,5,6]
+mylist2=revesearray_rec(6,0,mylist)
 print(mylist)
