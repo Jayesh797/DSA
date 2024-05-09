@@ -8,3 +8,4 @@ def unique_elements(arr):
 
 dc=unique_elements([1,1,2,2,2,2,3,4,5])
 print(dc) 
+
