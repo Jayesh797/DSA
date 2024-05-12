@@ -28,4 +28,9 @@ def reverse(i,j,arr):
     return arr
 
 list1=[0,1,2,3,4,5,6,7]
-reverse(3,6,list1)
+k=3
+n=len(list1)
+reverse(0,k-1,list1)
+reverse(k,n-1,list1)
+arr1=reverse(0,n-1,list1)
+print(arr1)
