@@ -8,17 +8,11 @@ def intersection_2_sorted_array(arr1,arr2):
         if(arr1[i]<arr2[j]):
             i+=1
         elif(arr1[i]==arr2[j]):
-            intersected_arr.append(arr1[j])
+            intersected_arr.append(arr1[i])
             i+=1
             j+=1
         else:
             j+=1
-    while(i<n1):
-        intersected_arr.append(arr1[i])
-        i+=1
-    while(j<n2):
-        intersected_arr.append(arr2[j])
-        j+=1
 
     return intersected_arr
 
