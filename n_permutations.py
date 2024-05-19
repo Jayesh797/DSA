@@ -25,7 +25,7 @@ def n_permutations(nums):
     
     return nums
 
-arr=[1,2,3,4,5]
+arr=[3,2,1]
 sd=n_permutations(arr)
 print(sd)
     
