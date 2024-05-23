@@ -3,8 +3,8 @@ def find_second_largest(arr):
     second_max=-1
     for i in range(0,len(arr)):
         if(arr[i]>max):
-            second_max=max
             max=arr[i]
+            second_max=max
         elif(arr[i]<max and arr[i]>second_max):
                 second_max=arr[i]
     return second_max
