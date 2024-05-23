@@ -3,8 +3,8 @@ def find_second_smallest(arr):
     ssmallest=10000
     for i in range(1,len(arr)):
         if(smallest>arr[i]):
-            ssmallest=smallest
             smallest=arr[i]
+            ssmallest=smallest
         elif(arr[i]!=smallest and arr[i]<ssmallest):
             ssmallest=arr[i]
     return ssmallest
