@@ -27,3 +27,12 @@
 #         print_n_rev(n-1)
 
 # print_n_rev(6)
+
+# using backtracking print N to 1
+# def BackTracking_n_1(i,n):
+#     if(i>n):
+#         return
+#     BackTracking_n_1(i+1,n)
+#     print(i)
+
+# BackTracking_n_1(1,6)
