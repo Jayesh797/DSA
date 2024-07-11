@@ -6,6 +6,6 @@ def unique_elements(arr):
             i+=1
     return i+1
 
-dc=unique_elements([1,1,2,2,2,2,3,4,5])
+dc=unique_elements([1,1,2,2,2,2,3,4,5,6,7])
 print(dc) 
 
