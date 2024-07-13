@@ -12,7 +12,7 @@ def print_val(r,c):
 row=6
 col=3
 #print_val(row-1,col-1)
-sd=print_val(row-1,col-1)
+sd=print_val(row,col)
 print(sd)
 
 #type-2 print a complete row
